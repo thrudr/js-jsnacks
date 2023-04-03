@@ -6,7 +6,19 @@ numero inserito.
 */
 
 
+/*
 // MULTIPLICATION TABLE
 for (let i=2; i<=1000; i=i+2){
     console.log(i);
+}
+*/
+
+
+// WITH USER NUMBER
+let numberUser = prompt("Choose the maximum result what you want:");
+number = parseInt(numberUser);
+
+for (let i=2; i<=number; i=i+2){
+    console.log(i);
+
 }
